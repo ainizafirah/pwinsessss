@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 namespace App\Http\Controllers;
 
@@ -24,10 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $users = User::all();
-
-         return $users; 
 
         return view('home');
+        
+        // $users = User::all();
+        // //panggil variables
+
+        //  return $users; 
+
     }
 }
